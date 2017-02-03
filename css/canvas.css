@@ -1,0 +1,12 @@
+﻿
+#canvas /* стили для canvas*/
+{
+    position:absolute;
+	
+   
+    display:block; /*превратим элемент в блочный*/
+    /* background:rgba(255,255,255,1); */ /*цвет фона*/
+    /*border: 1px solid black; рамка*/
+	z-index:999;
+	
+}

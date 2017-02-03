@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "pf_handbook_prothin";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/pfhandbookpro-thin-webfont.eot?#iefix") format("embedded-opentype"), 
+  url("/fonts/pfhandbookpro-thin-webfont.woff") format("woff"), 
+  url("/fonts/pfhandbookpro-thin-webfont.ttf") format("truetype"), 
+  url("/fonts/pfhandbookpro-thin-webfont.svg#pf_handbook_prothin") format("svg");
+}
+@font-face {
+  font-family: "Netpeak";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/fontello.eot") format("embedded-opentype"),
+  url("fonts/fontello.woff") format("woff"),
+  url("fonts/fontello.ttf") format("truetype"),
+  url("fonts/fontello.svg") format("svg");
+}
+@font-face {
+  font-family: "PFHandbookProRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/pfhandbookpro-regular-webfont.eot?#iefix") format("embedded-opentype"),
+  url("/fonts/pfhandbookpro-regular-webfont.woff") format("woff"), 
+  url("/fonts/pfhandbookpro-regular-webfont.ttf") format("truetype"),
+  url("/fonts/pfhandbookpro-regular-webfont.svg#pf_handbook_proregular") format("svg");
+}

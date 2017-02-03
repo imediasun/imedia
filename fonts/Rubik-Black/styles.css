@@ -1,0 +1,12 @@
+
+@font-face {
+  font-family: 'Rubik-Black';
+  src: url('Rubik-Black.eot?#iefix') format('embedded-opentype'),  url('Rubik-Black.woff') format('woff'), url('Rubik-Black.ttf')  format('truetype'), url('Rubik-Black.svg#Rubik-Black') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.medium_header{
+font-family: 'Rubik-Black';	
+color:#fff;	
+
+}

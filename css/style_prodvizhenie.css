@@ -1,0 +1,174 @@
+h3{
+font-family: "PFHandbookProRegular";
+font-size:160%;
+color:#fff;
+}
+h6{
+font-family: "PFHandbookProRegular";
+font-size:140%;
+color:#fff;
+}
+.info_block h3{
+font-family: "PFHandbookProRegular";
+font-size:160%;
+color:#333;
+margin-left:10px;
+}
+.info_block h6{
+font-family: "PFHandbookProRegular";
+font-size:140%;
+color:#333;
+margin-left:10px;
+}
+.info_button{
+width:50px;
+height:30px;
+position:absolute;
+background:url(/img/Information_icon.png) no-repeat;
+margin-top:-30px;
+cursor:pointer;
+z-index:999;
+}
+.info_block{
+
+display:none;
+position:absolute;
+width:100%;
+height:360px;
+position:absolute;
+background:#fff;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+z-index:9999;
+}
+.leters_thin{
+font-weight:normal;
+color:#eee;
+}
+#keywords_block{
+padding:20px;
+
+}
+.top_elem{
+position:relative;
+height:30px;
+width:100%;
+background:#e2e2e2; /* Old browsers */
+background:-moz-linear-gradient(top,  #e2e2e2 0%, #dbdbdb 71%, #d1d1d1 75%, #fefefe 100%); /* FF3.6+ */
+background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#e2e2e2), color-stop(71%,#dbdbdb), color-stop(75%,#d1d1d1), color-stop(100%,#fefefe)); /* Chrome,Safari4+ */
+background:-webkit-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 71%,#d1d1d1 75%,#fefefe 100%); /* Chrome10+,Safari5.1+ */
+background:-o-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 71%,#d1d1d1 75%,#fefefe 100%); /* Opera 11.10+ */
+background:-ms-linear-gradient(top,  #e2e2e2 0%,#dbdbdb 71%,#d1d1d1 75%,#fefefe 100%); /* IE10+ */
+background:linear-gradient(to bottom,  #e2e2e2 0%,#dbdbdb 71%,#d1d1d1 75%,#fefefe 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe',GradientType=0 ); /* IE6-9 */
+z-index:999;
+}
+#content{
+margin-top:100px;
+}
+.result_block{
+display:none;
+margin-top:0px;
+}
+.head_competitors{
+color:#fff;
+font-weight:bold;
+font-size:140%;
+text-shadow: 1px 1px 2px black, 0 0 1em grey; /* Параметры тени */
+}
+.top{
+display:inline-block;
+background:#fff;
+width:50px;
+height:25px;
+border:1px solid #666;
+text-align:center;
+cursor:pointer;
+}
+.competitors{
+width:auto;
+height:auto;
+background:#fff;
+}
+#query_block{
+
+}
+.table_header{
+background:#fff;
+height:30px;
+font-size:90%;
+font-weight:normal;
+}
+.table_big{
+
+font-size:130%;
+font-weight:normal;
+}
+.tr_query{
+height:60px;
+font-size:140%;
+font-weight:bold;
+}
+.after_tr{
+background:#eee;
+height:100px;
+display:none;
+}
+.down_arrow{
+width:20px;
+height:26px;
+background:url('/img/green_arrow.png') no-repeat scroll 0px 100% transparent;
+cursor:pointer;
+}
+.up_arrow{
+width:20px;
+height:26px;
+background:url('/img/red_arrow.png') no-repeat scroll 0px 100% transparent;
+cursor:pointer;
+}
+#main_content{
+position:relative;
+background:rgba(0,102,204,0.5);
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px; 
+}
+.adver_block{
+position:relative;
+
+height:410px;
+background:#fff;
+
+}
+.main_adver_promotion_block{
+margin-top:30px;
+}
+.adver_blocks{
+float:right;
+margin-top:20px;
+}
+.shadow{
+position:absolute;
+bottom:0;
+}
+.block_line{
+position:absolute;
+width:100%;
+height:45px;
+top:250px;
+}
+#block_line_1{
+background: none repeat scroll 0% 0% #004687;
+}
+#adver_container{
+position:relative;
+float:left;
+margin-left:180px;
+}
