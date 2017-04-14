@@ -63,19 +63,32 @@
 <script>
 window.menu=1;
 function close_menu(){
+
 $('#menu_block').animate({left:"-=315px"});
 $('.container_width').animate({"left": "-=315px"})
 $('#menu_head_name').text('Меню')
 window.menu=1;
 console.log(window.menu)
+setTimeout(function(){
+	$('.logo_l').animate({"left": "-=20px"});
+	$('.logo_l').animate({"left": "+=20px"});
+	$('.logo_l').css('position','fixed');
+	$('.second_menu').css('position','fixed'); }, 300);
+	$('.content').animate({"left": "+=315px"},800,'easeInOutQuint')
+
 }
 $('#menu_quad').click(function(){
+$('.logo_l').css('position','absolute');
+$('.second_menu').css('position','absolute');
 var left = $('#menu_block').offset().left;
 if(left==-315 ){
+$('.content').animate({"left": "-=315px"},800,'easeInOutElastic')
 $(this).animate({left:"+=315px"});
 $('#menu_block').animate({left:"+=315px"});
 $('.container_width').animate({"left": "+315px"})
 $('#menu_head_name').html('X');
+
+
 window.menu=0;
 console.log(window.menu)
 }
@@ -93,22 +106,22 @@ $('#menu_block').animate({left:"-=315px"});
 $('#menu_quad').animate({left:"-=315px"});
 $('.container_width').animate({"left": "-=315px"})
 if (this_m.attr('id')=='main_link_menu'){
-	var url="http://imedia.in.ua/main_controller/pages/index";
+	var url="/main_controller/pages/index";
 	}
 	if (this_m.attr('id')=='portfolio_link_menu'){
-	var url="http://imedia.in.ua/main_controller/pages/portfolio";
+	var url="/main_controller/pages/portfolio";
 	}
 	if (this_m.attr('id')=='prices_link_menu'){
-	var url="http://imedia.in.ua/main_controller/pages/packages";
+	var url="/main_controller/pages/packages";
 	}
 	if (this_m.attr('id')=='back_link_menu'){
-	var url="http://imedia.in.ua/main_controller/pages/back";
+	var url="/main_controller/pages/back";
 	}
 	if (this_m.attr('id')=='promo_link_menu'){
-	var url="http://imedia.in.ua/main_controller/pages/promotion";
+	var url="/main_controller/pages/promotion";
 	}
 	if (this_m.attr('id')=='contacts_link_menu'){
-	var url="http://imedia.in.ua/main_controller/pages/contacts";
+	var url="/main_controller/pages/contacts";
 	}
 	    window.location=url;
 		 

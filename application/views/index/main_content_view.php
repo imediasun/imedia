@@ -21,11 +21,8 @@
 <img class="logo_l" style="position:fixed;left:150px" src="/img/logo_wight_wire2.png" >
 
 			
-			<canvas id="bezier" style="position:fixed;left:150px" width="700" height="310">Your browser does not have support for canvas.</canvas>
-			
-		
+<canvas id="bezier" style="position:fixed;left:150px" width="700" height="310">Your browser does not have support for canvas.</canvas>
 
- 
 <div class="second_menu" style="position:fixed;z-index:9999">
 <ul class="nav-list">
 
