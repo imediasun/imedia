@@ -99,10 +99,55 @@
  
 <div class="content" style="clear:both;margin:0 auto;width:100%;z-index:999;position:absolute" >
  <div class="row" style="text-align:center;position:relative;margin:0 auto;">
- <div class="" style="width:1400px;right:100px;float:right;text-align:center;position:relative;margin:0 auto;height:auto;background:rgba(255,255,255,0.9);">
+ <div class="" style="width:1200px;right:70px;float:right;text-align:center;position:relative;margin:0 auto;height:auto;background:rgba(255,255,255,0.9);">
 
  <div style="height:auto;position:relative;">
  <!-- Enable MaxWidth Switching -->
+     <section id="contentWrapper">
+         <!-- Revolution slider start -->
+         <div class="tp-banner-container">
+             <div class="tp-banner">
+                 <ul>
+                     <li data-transition="fade" data-slotamount="7">
+                         <img alt="" src="/images/slider/dummy.png" data-lazyload="/images/slider/slider-1/header-25.jpg" data-bgposition="left center" data-kenburns="on" data-duration="14000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="130" data-bgpositionend="right center">
+                         <div class="caption lfr" data-y="97" data-x="right" data-speed="600" data-start="1000"><img alt="" src="/images/slider/slider-1/slide-1-img.png"></div>
+                         <div style="font-size:50px" class="caption lfl large-title tp-resizeme witTxt" data-x="-10" data-y="135" data-speed="600" data-start="1600">Новый уровень</div>
+                         <div style="font-size:50px" class="caption lfl large-title tp-resizeme witTxt" data-x="-10" data-y="187" data-speed="600" data-start="1800">Качества</div>
+                         <div style="font-size:50px" class="caption lfl large-title tp-resizeme witTxt" data-x="-10" data-y="240" data-speed="600" data-start="2000">За небольшие</div>
+                         <div style="font-size:50px" class="caption lfl large-title tp-resizeme main-color" data-x="-10" data-y="290" data-speed="600" data-start="2000">средства</div>
+                         <div class="caption lfl large-text tp-resizeme witTxt" data-x="-10" data-y="380" data-speed="600" data-start="2200">
+                             Наши цены очень лояльны - </br>мы сремимся использовать технологии будущего.
+                         </div>
+                     </li>
+                     <li data-transition="fade" data-slotamount="7">
+                         <img alt="" src="/images/slider/dummy.png" data-lazyload="/images/slider/slider-1/slide-2-bg.jpg" data-kenburns="on" data-duration="14000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="130" data-bgpositionend="right center">
+                         <div class="caption lfr" data-y="15" data-x="right" data-speed="600" data-start="1000"><img alt="" src="/images/slider/slider-1/slide-2-img.png"></div>
+                         <div class="caption lfl large-title tp-resizeme witTxt" data-x="0" data-y="58" data-speed="600" data-start="1600">Новый</div>
+                         <div class="caption lfl large-title tp-resizeme witTxt" data-x="0" data-y="119" data-speed="600" data-start="1800">Responsive</div>
+                         <div class="caption lfl large-title tp-resizeme main-color" data-x="0" data-y="180" data-speed="600" data-start="2000">Frontend</div>
+                         <div class="caption lfl large-title tp-resizeme main-color" data-x="0" data-y="240" data-speed="600" data-start="2200">скоростной</div>
+                         <div class="caption lfl large-title tp-resizeme witTxt" data-x="0" data-y="295" data-speed="600" data-start="2400">React</div>
+                         <div class="caption lfl large-title tp-resizeme witTxt" data-x="0" data-y="360" data-speed="600" data-start="2600">Design</div>
+                     </li>
+                     <li data-transition="fade" data-slotamount="7">
+                         <img alt="" src="/images/slider/dummy.png" data-lazyload="/images/slider/slider-1/header-bg.jpg" data-bgposition="left center" data-kenburns="on" data-duration="14000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="130" data-bgpositionend="right center">
+                         <div class="caption lfl" data-y="15" data-x="0" data-speed="600" data-start="1000"><img alt="" src="/images/slider/slider-1/slide-3-img.png"></div>
+                         <div class="caption lfr large-title tp-resizeme main-color" data-x="right" data-y="58" data-speed="600" data-start="1600">Backend</div>
+                         <div class="caption lfr large-title tp-resizeme main-color" data-x="right" data-y="119" data-speed="600" data-start="1800">Наивысшего</div>
+                         <div class="caption lfr large-title tp-resizeme main-color" data-x="right" data-y="180" data-speed="600" data-start="2000">Качества</div>
+                         <div class="caption sfb large-text tp-resizeme witTxt" data-x="right" data-y="270" data-speed="600" data-start="3000">Laravel Php</div>
+                         <div class="caption sfb large-text tp-resizeme witTxt" data-x="right" data-y="315" data-speed="600" data-start="3200">Net Framework Visual C#</div>
+                         <div class="caption sfb large-text tp-resizeme witTxt" data-x="right" data-y="355" data-speed="600" data-start="3400">Magelan E-commerce Systems </div>
+                         <div class="caption sfb large-text tp-resizeme witTxt" data-x="right" data-y="395" data-speed="600" data-start="3600">Just Contact us</div>
+                     </li>
+                 </ul>
+             </div>
+         </div>
+         <!-- Revolution slider end -->
+
+     </section>
+
+
 	<input checked type=radio name=respond id=desktop />
 	<input type=radio name=respond id=tablet />
 	<input type=radio name=respond id=mobile />	
@@ -704,27 +749,95 @@ article img {
  
 </div>
 
-		
 
-
-
-
-
-<link type="text/css" rel="stylesheet" href="/css/style_portfolio.css" />
-
-
-
-	
 </div><!-- #wrapper -->
 
+<script src="/Lyne.js-master/src/Lyne.js"></script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+<!-- SLIDER REVOLUTION SCRIPTS  -->
+<script type="text/javascript" src="/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
 
- 
+<!-- Animate numbers increment -->
+<script type="text/javascript" src="/js/jquery.animateNumber.min.js"></script>
+
+<!-- slick slider carousel -->
+<script type="text/javascript" src="/js/slick.min.js"></script>
+
+<!-- Animate numbers increment -->
+<script type="text/javascript" src="/js/jquery.easypiechart.min.js"></script>
+
+<!-- PrettyPhoto script -->
+<script type="text/javascript" src="/js/jquery.prettyPhoto.js"></script>
+
+<!-- Share post plugin script -->
+<script type="text/javascript" src="/js/jquery.sharrre.min.js"></script>
+
+<!-- Product images zoom plugin -->
+<script type="text/javascript" src="/js/jquery.elevateZoom-3.0.8.min.js"></script>
+
+<!-- Input placeholder plugin -->
+<script type="text/javascript" src="/js/jquery.placeholder.js"></script>
+<!-- general script file -->
+<script type="text/javascript" src="/js/script.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        // calculate height
+        var screen_ht = $(window).height();
+        var preloader_ht = 5;
+        var padding =(screen_ht/2)-preloader_ht;
+
+        $("#preloader").css("padding-top",padding+"px");
+
+    });
 
 
-	
-		
-		
+
+    $(document).ready(function(){
+
+// loading animation using script
+
+        /* 	function anim() {
+                $("#preloader_image").animate({left:'-1400px'}, 5000,
+                function(){ $("#preloader_image"),animate({left:'0px'}, 5000 );
+                    if (rotate==1){
+                        anim();
+                    }
+                }
+                );
+            }
+
+            anim(); */
+
+    });
+
+
+
+    rotate = 1;
+
+    /*function hide_preloader() {
+        // To stop the preloader
+        rotate = 0;
+        // To apply Fade Out Effect to the Preloader
+        $("#preloader"). css('display','none') .queue(function() {
+
+        start_page();
+        })
+        } */
+
+</script>
+
+
+
+
+
+
+
 <script>
 function individual_creative_design(){
 	

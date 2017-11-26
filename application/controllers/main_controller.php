@@ -28,14 +28,16 @@ class Main_controller extends CI_Controller {
 	$data['title'] = "Интер Медиа рекламное агентство";
 	$data['description'] = "Интер Медиа рекламное агентство";
 	$data['keywords'] = "Интер Медиа рекламное агентство";
-	$name='/index'; 
+	$name='/index';
+
 	$this->display_lib->main_page($name,$data);  
 	}
 	
 	
 	public function pages($page)
 	{
-	print($page);
+
+
 	switch ($page)
 	{
 	case 'index':

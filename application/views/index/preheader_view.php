@@ -2,76 +2,48 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta charset="utf-8" />
-	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="/css/ie.css">
+    <![endif]-->
 	<title><?=$title;?></title>
 	<meta name="keywords" content="<?=$keywords;?>" />
 	<meta name="description" content="<?=$description;?>" />
 	<link rel="stylesheet" href="/fonts/bebasneue.css" type="text/css" media="screen, projection" />
 	<link rel="stylesheet" href="/css/bootstrap.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&amp;amp;subset=latin,latin-ext">
 	<link type="text/css" rel="stylesheet" href="/css/style.css" />
-	
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
 	<link type="text/css" rel="stylesheet" href="/css/style_menu.css" />
 	<link href="/css/canvas.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="/css/fcf.css" />
 	<link type="text/css" rel="stylesheet" href="/css/style_main.css" />
 	<link rel="stylesheet" href="/css/3dcube.css" />
-    <script src="http://code.jquery.com/jquery-2.0.0b2.js"></script>
-    <script src="/Lyne.js-master/src/Lyne.js"></script>
-<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-		<script src="/js/bootstrap.min.js"></script>
-		
- <script>
-$(document).ready(function(){
+    <link rel="stylesheet" href="/css/style_rs-banner.css">
 
-	// calculate height
-	var screen_ht = $(window).height();
-	var preloader_ht = 5;
-	var padding =(screen_ht/2)-preloader_ht;
-	
-	$("#preloader").css("padding-top",padding+"px");
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/prettyPhoto.css">
+    <link rel="stylesheet" href="/css/slick.css">
 
-});
+
+    <link rel="stylesheet" href="/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+    <link rel="stylesheet" href="/css/responsive.css">
+
+    <!-- Skin style (** you can change the link below with the one you need from skins folder in the css folder **) -->
+    <link rel="stylesheet" id="skinCSS" href="/css/skins/default.css">
 
 
 
-$(document).ready(function(){
+    <!-- Load JS siles -->
 
-// loading animation using script 
-
-/* 	function anim() {
-		$("#preloader_image").animate({left:'-1400px'}, 5000,
-		function(){ $("#preloader_image"),animate({left:'0px'}, 5000 );
-			if (rotate==1){
-				anim();
-			}
-		}
-		);
-	}
-
-	anim(); */
-
-});
-
-
-
-rotate = 1;
-
-function hide_preloader() {
-	// To stop the preloader 
-	rotate = 0; 
-	// To apply Fade Out Effect to the Preloader 
-	$("#preloader"). css('display','none') .queue(function() {
-	
-	start_page();
-	})
-	} 
-
-</script> 
 
 </head>
 
-<body onload="hide_preloader()">
+<body <!--onload="hide_preloader()"-->>
 
 <div id="preloader">
 

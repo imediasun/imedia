@@ -1,8 +1,5 @@
 
 <div id="article_page">
-
-
-
 </div>
 <div class="template_banner">
 <div id="logo_articles">
