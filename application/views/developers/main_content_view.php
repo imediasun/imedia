@@ -99,7 +99,7 @@
  
 <div class="content" style="clear:both;margin:0 auto;width:100%;z-index:999;position:absolute" >
  <div class="row" style="text-align:center;position:relative;margin:0 auto;">
- <div class="" style="width:1400px;right:100px;float:right;text-align:center;position:relative;margin:0 auto;height:auto;background:rgba(255,255,255,0.9);">
+ <div class="span12 " style="right:100px;float:right;text-align:center;position:relative;margin:0 auto;height:auto;background:rgba(255,255,255,0.9);">
 
  <div style="height:auto;position:relative;">
  <!-- Enable MaxWidth Switching -->
